@@ -1,0 +1,70 @@
+.container{
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+    flex-direction: column;
+}
+.boxes{
+    border: 2px solid green;
+    height: 50px;
+    width: 50px;
+}
+section{
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.login-form{
+    flex-direction: column;
+    display: block;
+    display: flex;
+    width: 50%;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.login-form input{
+    margin-top: 20px;
+}
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.box{
+    border: 2px solid aquamarine;
+}
+.flexbox{
+    display: grid;
+    grid-template-columns: repeat(2,500px) 200px;
+}
+.date,.day {
+    background-color:burlywood;
+    border: 2px solid purple;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.day{
+    background-color: lightblue;
+}
